@@ -2361,7 +2361,7 @@ function setupSignupForm() {
         var email = $('#email-signup').val();
         // validate email here
         var request = $.ajax({
-            url: "javascripts/mail.js",
+            url: "http://javahexlet.16mb.com/sign_me_up.php",
             context: this,
             type: "POST",
             dataType: "JSON",

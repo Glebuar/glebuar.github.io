@@ -126,7 +126,7 @@ function setupSignupForm() {
         var email = $('#email-signup').val();
         // validate email here
         var request = $.ajax({
-            url: "sign_me_up.php",
+            url: "javascripts/mail.js",
             context: this,
             type: "POST",
             dataType: "JSON",

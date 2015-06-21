@@ -1,6 +1,6 @@
 var file = 'people.txt';
 var current = '';
-var return = { 'email' : '' };
+//var return = { 'email' : '' };
 if( file_exists( file ) ) {
     current = file_get_contents(file);
 }

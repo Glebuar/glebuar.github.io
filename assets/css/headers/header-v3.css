@@ -810,7 +810,7 @@
 
 @media (min-width: 1200px) {
 .navbar-brand {
-margin-left: 80px; 
+margin-left: 80px !important; 
 	}
 }
 

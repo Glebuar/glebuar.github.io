@@ -790,8 +790,9 @@
 
 	.header-fixed .header-v3.header-fixed-shrink .dropdown > a:after {
 		top: 57px;
-	}
-
+	}	
+	
+	
 	/*Search Bar*/
 	.header-fixed .header-v3.header-fixed-shrink .search {
 		margin-top: 49px;
@@ -806,6 +807,13 @@
 		background: rgba(255,255,255, 0.9);	
 	}
 }
+
+@media (min-width: 1200px) {
+.navbar-brand {
+margin-left: 80px; 
+	}
+}
+
 
 
 /*--------------------------------------------------

@@ -10,13 +10,14 @@ var ContactPage = function () {
 				div: '#map',
 				scrollwheel: false,				
 				lat: 50.471988,
-				lng: 30.483731
+				lng: 30.483731,
+				zoom:18
 			  });
 			  
 			  var marker = map.addMarker({
 				lat: 50.471988,
 				lng: 30.483731,
-	            title: 'НТЦ АНТ'
+	                        title: 'НТЦ АНТ'
 		       });
 			});
         },

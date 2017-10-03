@@ -16,7 +16,7 @@ var ContactPage = function () {
 			  var marker = map.addMarker({
 				lat: 50.471988,
 				lng: 30.483731,
-	            title: 'Company, Inc.'
+	            title: 'НТЦ АНТ'
 		       });
 			});
         },

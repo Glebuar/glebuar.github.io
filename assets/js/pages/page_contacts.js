@@ -11,7 +11,7 @@ var ContactPage = function () {
 				scrollwheel: false,				
 				lat: 50.471988,
 				lng: 30.483731,
-				zoom:18
+				zoom:17
 			  });
 			  
 			  var marker = map.addMarker({

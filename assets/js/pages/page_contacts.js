@@ -9,13 +9,13 @@ var ContactPage = function () {
 			  map = new GMaps({
 				div: '#map',
 				scrollwheel: false,				
-				lat: 50.510868,
-				lng: 30.615451
+				lat: 50.471988,
+				lng: 30.483731
 			  });
 			  
 			  var marker = map.addMarker({
-				lat: 50.510868,
-				lng: 30.615451,
+				lat: 50.471988,
+				lng: 30.483731,
 	            title: 'Company, Inc.'
 		       });
 			});
@@ -27,8 +27,8 @@ var ContactPage = function () {
 		    $(document).ready(function(){
 		      panorama = GMaps.createPanorama({
 		        el: '#panorama',
-		        lat : 50.510868,
-		        lng : 30.615451
+		        lat : 50.471988,
+		        lng : 30.483731
 		      });
 		    });
 		}        
